@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZERO LOSS</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <style>
+        nav{
+    display: flex;
+    background-color: #0fc53c;
+    padding:2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 179px;
+}
+.nav-links{
+    flex:1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display:inline-block;
+    padding:8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: beige;
+    text-decoration: none;
+    font-size: 18px;
+}
+.nav-links ul li ::after {
+    content: '';
+    width: 0%;
+    height:2px;
+    background: #0fc53c;
+    display:block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li :hover::after{
+    width: 100%;
+}
+.text-box{
+    width:90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{ 
+   font-size: 62px;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.hero-btn:hover{
+    border: 1px solid #25d41f;
+    background: #3ccf55;
+    transition: 1s;
+}
+nav .fa{ 
+    display: none;
+
+}
+@media(max-width:700px){
+    .text-box h1{ 
+        font-size: 20px;
+     }
+     .nav-links ul li {
+        display: block;
+     }
+     .nav-links {
+       position :absolute;
+       background:#45b86b;
+       height: 100vh;
+       width:200px;
+       top:0;
+       right:-200px;
+       text-align: left; 
+       z-index: 2;  
+       transition:1s ; 
+     }
+     nav.fa{
+        display: block;
+        color: #fff;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+     }
+     .nav-links ul {
+       padding: 30px; 
+     }
+}
+            .register .nav-tabs .nav-link:hover{
+                border: none;
+            }
+            .text-align{
+                margin-top: -3%;
+                margin-bottom: -9%;
+
+                padding: 10%;
+                margin-left: 30%;
+            }
+            .form-new{
+                margin-right: 22%;
+                margin-left: 20%;
+            }
+            .register-heading{
+                margin-left: 21%;
+                margin-bottom: 10%;
+                color: #e9ecef;
+            }
+            .register-heading h1{
+                margin-left: 21%;
+                margin-bottom: 10%;
+                color: #e9ecef;
+            }
+            .register{
+               
+                margin-top: 3%;
+                padding: 3%;
+                border-radius: 2.5rem;
+            }
+            .btnSubmit
+            {
+                width: 50%;
+                border-radius: 1rem;
+                padding: 1.5%;
+                color: #fff;
+                background-color: #03612e;
+                border: none;
+                cursor: pointer;
+                margin-right: 6%;
+                color: rgb(246, 246, 252);
+                margin-top: 4%;
+            }
+            h99{
+                color: #000;
+                font-weight:1000;
+                font-size: 30px;
+            }
+            
+    </style>
+
+</head>
+<body>
+    <nav>
+        <a href="index.html"><img src="https://tribe-s3-production.imgix.net/FFu8JKjIn2ki8fiOvvxOU?w=500&auto=compress,format&dl"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#aboutUs">AboutUs</a></li>
+                <li><a href="Sarang.html">Saarang</a></li>
+                <li><a href="team.html">our Team</a></li>
+                <li><a href="careers.html">Careers</a></li>
+                <li><a href="Piller.html">Our Secret Pillars</a></li>
+                <li><a href="programs.html">Our Programs</a></li>
+                <li><a href="challenges.html">Challenges</a></li>
+            </ul>
+        </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    
+<div class="container register">
+            <div class="row">
+                <div class="col-md-12">
+                    <a href="https://script.google.com/macros/s/AKfycbzPzVwqtKwEYVvyVWYvTGEelUw4gzg410aSlFk9mQ3n/dev" ><h99> <̶-̶-̶  </h99> </a>
+                        <div class="tab-pane fade show active text-align form-new" id="home" role="tabpanel" aria-labelledby="home-tab">
+                            <h3 class="register-heading">     </h3>
+                            
+                            <div class="row register-form">
+                                <div class="col-md-12">
+                                    <form method="post" autocomplete="off" name="google-sheet">
+                                       
+                                        <div class="form-group">
+                                            full name
+                    <input type="text" name="full name" class="form-control" placeholder="full name *" value="" required=""/>
+                                        </div>
+                                        <div class="form-group">
+                                            mail
+                                            <input type="email" name="mail" class="form-control" placeholder="mail *" value="" required=""/>
+                                         </div>
+                                         <div class="form-group">
+                                            phone number
+                                            <input type="number" name="phone number" class="form-control" placeholder="phone number *" value="" required=""/>
+                                         </div>
+                                         <div class="form-group">
+                                            your insights/Suggestions/ideas to make a better tommorow
+                                            <input type="text" name="your insights/Suggestions/ideas to make a better tommorow" class="form-control" placeholder="your insights/Suggestions/ideas to make a better tommorow *" value="" required="" />
+                                         </div>
+                                         
+
+
+                                         <div class="form-group">
+                                            linkedin
+                                            <input type="url" name="linkedin" class="form-control" placeholder="linkedin *" value="https://linkedin.com"  />
+                                         </div>
+                                         <div class="form-group">
+                                            twitter
+                                            <input type="url" name="twitter" class="form-control" placeholder="twitter *" value="https://twitter.com"  />
+                                         </div>
+                                         <div class="form-group">
+                                            instagram
+                                            <input type="url" name="instagram" class="form-control" placeholder="instagram *" value="https://instagram.com"  />
+                                         </div>
+                                         
+                                        
+                                        
+                                        
+                                        
+                                          
+                        <div class="form-group">
+                            <input type="submit" name="submit" class="btnSubmit btn-block" value="Login" />
+                         </div>
+                                        
+                                    </form>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+          
+          <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbwsnMuHaL8RXYd2-sE12D1FrKoHCzNkRJNbtEPJe2VM1dg71-fhV1PBDgSAVlZ1IwSmMQ/exec'
+            const form = document.forms['google-sheet']
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..." + url))
+                .catch(error => console.error('Error!', error.message))
+                window.location.href = 'https://script.google.com/macros/s/AKfycbzPzVwqtKwEYVvyVWYvTGEelUw4gzg410aSlFk9mQ3n/dev';
+            })
+          </script>
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</body>
+</html>

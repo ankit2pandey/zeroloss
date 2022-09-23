@@ -1,0 +1,257 @@
+
+
+.programs {
+    width: 1512px;
+    height: 2849px;
+    flex-grow: 0;
+    background-color: rgb(25, 197, 111);
+  }
+.Rectangle-349 {
+    width: 1511px;
+    height: 86px;
+    margin: 0 0 98px 1px;
+    padding: 8px 106px 8px 100px;
+    background-color: #045e38;
+  }
+  /*zeroloss logo*/
+  .Ellipse-62 {
+    width: 70px;
+    height: 70px;
+    margin: 0 620px 0 0;
+    background-color: rgb(9, 138, 30);
+  }
+  .Home {
+    width: 52px;
+    height: 22px;
+    margin: 24px 40px 24px 620px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color:  #fff;
+  }
+  .About-Us {
+    width: 82px;
+    height: 22px;
+    margin: 24px 40px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+  }
+  .Programs {
+    width: 86px;
+    height: 22px;
+    margin: 24px 40px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color:  #fff;
+  }
+  .Career {
+    width: 60px;
+    height: 22px;
+    margin: 24px 40px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color:  #fff;
+  }
+  .Sarang {
+    width: 63px;
+    height: 22px;
+    margin: 24px 0 24px 40px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+  }
+  .programHeader {
+    width: 171px;
+    height: 44px;
+    flex-grow: 0;
+    margin: 0 480px 40px 479px;
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: rgb(24, 14, 14);
+  }
+  .Rectangle-1 {
+   padding:1205px;
+    width: 1321px;
+    height: 316px;
+    flex-grow: 0;
+    margin: 106px 190px 80px 1px;
+    padding: 35px 60px 35px 98px;
+    background-color: #339768;
+  }
+  .Rectangle-2 {
+    width: 1320px;
+    height: 316px;
+    flex-grow: 0;
+    margin: 80px 0 80px 192px;
+    padding: 35px 99px 35px 62px;
+    transform: rotate(-180deg);
+    background-color:#339768;
+  }
+  .Rectangle-3 {
+    width: 1321px;
+    height: 316px;
+    flex-grow: 0;
+    margin: 80px 190px 70px 1px;
+    padding: 35px 62px 35px 98px;
+    background-color: #339768;
+  }
+  .Line-66 {
+    width: 1511px;
+    height: 3px;
+    margin: 70px 0 46px 1px;
+    background-color:rgb(206, 22, 108);
+  }
+  .FAQs {
+    width: 119px;
+    height: 68px;
+    margin: 46px 1292px 0 101px;
+    font-family: Poppins;
+    font-size: 45px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: rgb(19, 17, 17);
+  }
+  .Frame-398 {
+    width: 1312px;
+    height: 576px;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0;
+  }
+  .Component-3 {
+    width: 1312px;
+    height: 96px;
+    flex-grow: 0;
+    padding: 30px 50px 30px 42px;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  .What-is-the-diffrence-between-Draft-and-a-traditional-bank-account- {
+    width: 833px;
+    height: 36px;
+    margin: 0 355px 0 0;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: rgb(24, 21, 21);
+  }
+  .Vector {
+    width: 2.7px;
+    height: 26.7px;
+    background-color: #101ad4;
+  }
+  .Component-4 {
+    width: 1312px;
+    height: 96px;
+    flex-grow: 0;
+    padding: 30px 50px 30px 42px;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  .What-is-the-diffrence-between-Draft-and-a-traditional-bank-account- {
+    width: 833px;
+    height: 36px;
+    margin: 0 355px 0 0;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color:rgb(17, 15, 15);
+  }
+  footer {
+    width: 1512px;
+    height: 386px;
+    flex-grow: 0;
+    padding: 51px 0 0;
+    background-color: #131313;
+  }
+  header {
+    width: 110px;
+    height: 29px;
+    flex-grow: 0;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: rgb(245, 240, 240);
+  }
+  .adress{
+    height: 110px;
+    flex-grow: 1; 
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: rgb(255, 253, 253);
+  }
+  .Frame-389 {
+    width: 168.9px;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 32px;
+    margin: 16px 420.1px 24px 100px;
+    padding: 0;
+  }
