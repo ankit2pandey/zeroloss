@@ -4,6 +4,7 @@
     font-family: "Poppins", sans-serif;
   }
   nav {
+    width: -webkit-fill-available;
     height: 10px;
     display: flex;
     background-color: #0fc53c;
@@ -78,12 +79,10 @@
   @media (max-width: 700px) {
     nav{
       height: 40px;
+      width: -webkit-fill-available;
     }
     .text-box h1 {
       font-size: 20px;
-    }
-    .op{
-        transform: rotate(90deg);
     }
     .nav-links ul li {
       display: block;
