@@ -31,7 +31,6 @@
 /* our team undre line */
 .heading-title h1::before{
     content: '';
-    left: ;
     position: absolute;
     height: 3px;
     right: -10%;
@@ -150,14 +149,7 @@ p{
     color: #414141;
     font-weight: 300;
 }
-h1,
-h2,
-h3,{
-    padding: 0;
-    margin: 0 0 20px 0;
-    color: #000000;
-    font-weight: 700;
-}
+
 img{
     width: 100%;
     height: auto;
@@ -189,7 +181,6 @@ img{
 /* our team undre line */
 .section-title h1::before{
     content: '';
-    left: ;
     position: absolute;
     height: 3px;
     right: -120%;
@@ -315,7 +306,7 @@ img{
     .column{
         max-width: 30%;
     }
-}*/
+}
 @media (min-width: 1200px){
     .container{
         max-width: 1140px;
