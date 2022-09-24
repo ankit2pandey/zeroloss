@@ -1,8 +1,104 @@
-* {
-  margin: 0;
-  padding: 0;
-  font-family: "Poppins", sans-serif;
+@import url(main.css);
+
+.ptxt {
+  background-image: url("https://source.unsplash.com/2000x700/?nature");
+  z-index: 3;
+  color: #f7f0f5;
+  padding: 70px;
+  padding-top: 40px;
+  display: flex;
 }
+.ptxt1 h1 {
+  font-size: 90px;
+  font-weight: 600;
+}
+.ptxt4 {
+  text-decoration: noun;
+  display: inline-block;
+  font-size: 100%;
+  font-weight: 500;
+  border: 1px solid rgb(255, 255, 255);
+  color: #f8eef6;
+  padding: 10px 15px;
+  border-radius: 7px;
+  margin: 3% 0 1%;
+  transform: padding 0.5s;
+  z-index: 3;
+}
+
+.ptxt4:hover {
+  padding: 15px 20px;
+}
+.ptxt5 {
+  z-index: 3;
+  text-decoration: noun;
+  display: inline-block;
+  font-size: 100%;
+  font-weight: 500;
+  background: #fff;
+  color: #080107;
+  padding: 10px 15px;
+  border-radius: 7px;
+  margin: 3% 0 1%;
+  transition: padding 0.5s;
+}
+.ptxt2 {
+  margin-left: 230px;
+  z-index: 3;
+}
+.ptxt5:hover {
+  padding: 15px 20px;
+}
+
+@media (max-width: 700px) {
+  .ptxt {
+    color: #f7f0f5;
+    padding: 20px;
+    padding-top: 60px;
+    display: flex;
+  }
+  .ptxt1 h1 {
+    font-size: 40px;
+    font-weight: 600;
+  }
+  .ptxt4 {
+    text-decoration: noun;
+    display: inline-block;
+    font-size: 100%;
+    font-weight: 500;
+    border: 1px solid rgb(255, 255, 255);
+    color: #f8eef6;
+    padding: 10px 15px;
+    border-radius: 7px;
+    margin: 3% 0 1%;
+    transform: padding 0.5s;
+    z-index: 3;
+  }
+
+  .ptxt4:hover {
+    padding: 15px 20px;
+  }
+  .ptxt5 {
+    z-index: 3;
+    text-decoration: noun;
+    display: inline-block;
+    font-size: 100%;
+    font-weight: 500;
+    background: #fff;
+    color: #080107;
+    padding: 10px 15px;
+    border-radius: 7px;
+    margin: 3% 0 1%;
+    transition: padding 0.5s;
+  }
+  .ptxt2 {
+    display: none;
+  }
+  .ptxt5:hover {
+    padding: 15px 20px;
+  }
+}
+
 
 .num {
   position: relative;

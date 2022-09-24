@@ -1,50 +1,9 @@
+@import url(main.css);
 /*our team page*/
-*{
-    margin: 0;
-    padding: 0;
-}
+
 body{
     background-color: #f5ecec;
 }
-nav{
-    width: auto;
-    background-color: #108b20;
-    display: flex;
-    padding:1% 8%;
-    justify-content: space-between;
-    align-items: center;
-}
-nav img{
-    width:200px;
-}
-.nav-links{
-    flex:1;
-    text-align: right;
-}
-.nav-links ul li{
-    list-style: none;
-    display:inline-block;
-    padding:8px 12px;
-    position: relative;
-}
-.nav-links ul li a{
-    color: beige;
-    text-decoration: none;
-    font-size: 18px;
-}
-.nav-links ul li ::after {
-    content: '';
-    width: 0%;
-    height:2px;
-    background: #0fc53c;
-    display:block;
-    margin: auto;
-    transition: 0.5s;
-}
-.nav-links ul li :hover::after{
-    width: 100%;
-}
-
 
 *,
 *::before,
